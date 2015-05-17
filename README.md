@@ -45,7 +45,7 @@ What if the rootViewController's view is *not* in the window hierarchy?
 There's a demo of this scenario in the source. Pull it down and try it yourself.
 
 ## Fixing the issue
-DBAlertController fixes the issue above by adding a UIWindow to a UIAlertController. By using a second window we can ensure:
+DBAlertController fixes the issue above by presenting the UIAlertController on its own UIWindow. By using its own window we can ensure:
 
 * The alert's UIWindow is always on top (`windowLevel = UIWindowLevelAlert + 1`)
 * The alert is always presented from the same UIViewController (`alertWindow.rootViewController`)
