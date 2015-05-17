@@ -24,10 +24,12 @@ UIAlertView and system alerts might actually use their own UIWindow just like DB
 **AppDelegate.swift**
 ```swift
 func applicationDidBecomeActive(application: UIApplication) {
-    let alertController = UIAlertController(title: "Update Available", message: "Would you like to update your app?", preferredStyle: .Alert)
-    alertController.addAction(UIAlertAction(title: "Yes!", style: .Default, handler: nil))
+    if update {
+        let alertController = UIAlertController(title: "Update Available", message: "Would you like to update your app?", preferredStyle: .Alert)
+        alertController.addAction(UIAlertAction(title: "Yes!", style: .Default, handler: nil))
     
-    window!.rootViewController?.presentViewController(alertController, animated: true, completion: nil)
+        window!.rootViewController?.presentViewController(alertController, animated: true, completion: nil)
+    }
 }
 ```
 This will work... but only if the rootViewController's view is in the window hierarchy.
@@ -77,4 +79,4 @@ presentViewController(alertController, animated: flag, completion: completion)
 ```
 
 ## Feedback
-All feedback is welcome. [Tweet](https://twitter.com/dbettermann "@dbettermann") at me or sent me an [email](mailto:dylan.bettermann@gmail.com) with any questions, comments, or issues.
+All feedback is welcome. [Tweet](https://twitter.com/dbettermann "@dbettermann") at me or send me an [email](mailto:dylan.bettermann@gmail.com) with any questions, comments, or issues.
