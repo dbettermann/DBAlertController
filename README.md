@@ -55,7 +55,7 @@ So there you have it. Try it out and let me know what you think.
 ## Installation
 
 ### Cocoapods
-Coming soon.
+Add `pod 'DBAlertController'` to your Podfile.
 
 ### Carthage
 Haven't really used Carthage. Will add support if asked.
