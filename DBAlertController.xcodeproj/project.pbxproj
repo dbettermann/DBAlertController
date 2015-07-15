@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC1DE8C01B0196910019E38D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DE8BF1B0196910019E38D /* AppDelegate.swift */; };
-		FC1DE8C21B0196910019E38D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DE8C11B0196910019E38D /* ViewController.swift */; };
-		FC1DE8C71B0196910019E38D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1DE8C61B0196910019E38D /* Images.xcassets */; };
-		FC1DE8CA1B0196910019E38D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1DE8C81B0196910019E38D /* LaunchScreen.xib */; };
 		FC1DE8D61B0196910019E38D /* DBAlertControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DE8D51B0196910019E38D /* DBAlertControllerTests.swift */; };
-		FC1DE8E01B0196F30019E38D /* DBAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DE8DF1B0196F30019E38D /* DBAlertController.swift */; };
-		FC81C6E21B02FDA7009B0B24 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC81C6E11B02FDA7009B0B24 /* ModalViewController.swift */; };
+		FC5A95E91B56A0F90082B467 /* DBAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95E81B56A0F90082B467 /* DBAlertController.swift */; };
+		FC5A95F21B56A1570082B467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95EB1B56A1570082B467 /* AppDelegate.swift */; };
+		FC5A95F31B56A1570082B467 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5A95EC1B56A1570082B467 /* LaunchScreen.xib */; };
+		FC5A95F41B56A1570082B467 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5A95EE1B56A1570082B467 /* Images.xcassets */; };
+		FC5A95F51B56A1570082B467 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC5A95EF1B56A1570082B467 /* Info.plist */; };
+		FC5A95F61B56A1570082B467 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95F01B56A1570082B467 /* ModalViewController.swift */; };
+		FC5A95F71B56A1570082B467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95F11B56A1570082B467 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,16 +29,16 @@
 
 /* Begin PBXFileReference section */
 		FC1DE8BA1B0196910019E38D /* DBAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC1DE8BE1B0196910019E38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC1DE8BF1B0196910019E38D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC1DE8C11B0196910019E38D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC1DE8C61B0196910019E38D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FC1DE8C91B0196910019E38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FC1DE8CF1B0196910019E38D /* DBAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1DE8D41B0196910019E38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC1DE8D51B0196910019E38D /* DBAlertControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBAlertControllerTests.swift; sourceTree = "<group>"; };
-		FC1DE8DF1B0196F30019E38D /* DBAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBAlertController.swift; sourceTree = "<group>"; };
-		FC81C6E11B02FDA7009B0B24 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		FC5A95E81B56A0F90082B467 /* DBAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBAlertController.swift; sourceTree = "<group>"; };
+		FC5A95EB1B56A1570082B467 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC5A95ED1B56A1570082B467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC5A95EE1B56A1570082B467 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC5A95EF1B56A1570082B467 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5A95F01B56A1570082B467 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		FC5A95F11B56A1570082B467 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,23 +80,10 @@
 		FC1DE8BC1B0196910019E38D /* DBAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				FC1DE8BF1B0196910019E38D /* AppDelegate.swift */,
-				FC1DE8C11B0196910019E38D /* ViewController.swift */,
-				FC1DE8C61B0196910019E38D /* Images.xcassets */,
-				FC1DE8C81B0196910019E38D /* LaunchScreen.xib */,
-				FC1DE8BD1B0196910019E38D /* Supporting Files */,
-				FC1DE8DF1B0196F30019E38D /* DBAlertController.swift */,
-				FC81C6E11B02FDA7009B0B24 /* ModalViewController.swift */,
+				FC5A95EA1B56A1570082B467 /* Example */,
+				FC5A95E71B56A0F90082B467 /* Pod */,
 			);
 			path = DBAlertController;
-			sourceTree = "<group>";
-		};
-		FC1DE8BD1B0196910019E38D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC1DE8BE1B0196910019E38D /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		FC1DE8D21B0196910019E38D /* DBAlertControllerTests */ = {
@@ -113,6 +101,27 @@
 				FC1DE8D41B0196910019E38D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC5A95E71B56A0F90082B467 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A95E81B56A0F90082B467 /* DBAlertController.swift */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FC5A95EA1B56A1570082B467 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A95EB1B56A1570082B467 /* AppDelegate.swift */,
+				FC5A95EC1B56A1570082B467 /* LaunchScreen.xib */,
+				FC5A95EE1B56A1570082B467 /* Images.xcassets */,
+				FC5A95EF1B56A1570082B467 /* Info.plist */,
+				FC5A95F01B56A1570082B467 /* ModalViewController.swift */,
+				FC5A95F11B56A1570082B467 /* ViewController.swift */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC1DE8CA1B0196910019E38D /* LaunchScreen.xib in Resources */,
-				FC1DE8C71B0196910019E38D /* Images.xcassets in Resources */,
+				FC5A95F31B56A1570082B467 /* LaunchScreen.xib in Resources */,
+				FC5A95F41B56A1570082B467 /* Images.xcassets in Resources */,
+				FC5A95F51B56A1570082B467 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,10 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC81C6E21B02FDA7009B0B24 /* ModalViewController.swift in Sources */,
-				FC1DE8E01B0196F30019E38D /* DBAlertController.swift in Sources */,
-				FC1DE8C21B0196910019E38D /* ViewController.swift in Sources */,
-				FC1DE8C01B0196910019E38D /* AppDelegate.swift in Sources */,
+				FC5A95F21B56A1570082B467 /* AppDelegate.swift in Sources */,
+				FC5A95F61B56A1570082B467 /* ModalViewController.swift in Sources */,
+				FC5A95F71B56A1570082B467 /* ViewController.swift in Sources */,
+				FC5A95E91B56A0F90082B467 /* DBAlertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,10 +250,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC1DE8C81B0196910019E38D /* LaunchScreen.xib */ = {
+		FC5A95EC1B56A1570082B467 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC1DE8C91B0196910019E38D /* Base */,
+				FC5A95ED1B56A1570082B467 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -338,7 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DBAlertController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DBAlertController/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,7 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DBAlertController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DBAlertController/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
