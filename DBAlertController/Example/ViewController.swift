@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     
     func present() {
         let modalViewController = UINavigationController(rootViewController: ModalViewController())
+        modalViewController.modalPresentationStyle = .FormSheet
         presentViewController(modalViewController, animated: true, completion: {
             let instructions = UIAlertController(title: "Instructions", message: "Now press the home button. When you resume the app, the default UIAlertController will not be presented and you will receive a warning message in your console. The DBAlertController will be presented.", preferredStyle: .Alert)
             instructions.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))

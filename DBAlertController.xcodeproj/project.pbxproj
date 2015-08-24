@@ -12,7 +12,6 @@
 		FC5A95F21B56A1570082B467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95EB1B56A1570082B467 /* AppDelegate.swift */; };
 		FC5A95F31B56A1570082B467 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5A95EC1B56A1570082B467 /* LaunchScreen.xib */; };
 		FC5A95F41B56A1570082B467 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5A95EE1B56A1570082B467 /* Images.xcassets */; };
-		FC5A95F51B56A1570082B467 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC5A95EF1B56A1570082B467 /* Info.plist */; };
 		FC5A95F61B56A1570082B467 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95F01B56A1570082B467 /* ModalViewController.swift */; };
 		FC5A95F71B56A1570082B467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95F11B56A1570082B467 /* ViewController.swift */; };
 /* End PBXBuildFile section */
@@ -168,7 +167,7 @@
 		FC1DE8B21B0196910019E38D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Dylan Bettermann";
 				TargetAttributes = {
 					FC1DE8B91B0196910019E38D = {
@@ -206,7 +205,6 @@
 			files = (
 				FC5A95F31B56A1570082B467 /* LaunchScreen.xib in Resources */,
 				FC5A95F41B56A1570082B467 /* Images.xcassets in Resources */,
-				FC5A95F51B56A1570082B467 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

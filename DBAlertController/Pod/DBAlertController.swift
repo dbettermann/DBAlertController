@@ -14,6 +14,7 @@ class DBAlertController: UIAlertController {
     private lazy var alertWindow: UIWindow = {
         let window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window.rootViewController = UIViewController()
+        window.backgroundColor = UIColor.clearColor()
         window.windowLevel = UIWindowLevelAlert + 1 // Guarantees that our UIAlertController will appear above all other UIAlertControllers.
         return window
     }()
