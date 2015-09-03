@@ -19,6 +19,11 @@ class DBAlertController: UIAlertController {
         return window
     }()
     
+    /// Fix for bug in iOS9 that prevents the original window from becoming keyWindow again
+    deinit{
+        self.alertWindow.hidden=true
+    }
+    
     /**
     Present the DBAlertController on top of the visible UIViewController.
     
