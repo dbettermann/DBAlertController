@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DBAlertController: UIAlertController {
+public class DBAlertController: UIAlertController {
    
     /// The UIWindow that will be at the top of the window hierarchy. The DBAlertController instance is presented on the rootViewController of this window.
     private lazy var alertWindow: UIWindow = {
@@ -30,12 +30,22 @@ class DBAlertController: UIAlertController {
     :param: flag       Pass true to animate the presentation; otherwise, pass false. The presentation is animated by default.
     :param: completion The closure to execute after the presentation finishes.
     */
-    func show(animated flag: Bool = true, completion: (() -> Void)? = nil) {
+    public func show(animated flag: Bool = true, completion: (() -> Void)? = nil) {
         /**
         *  We don't need to worry about removing the window manually. The only strong reference to the alertWindow is the UIAlertController so when ARC cleans up the UIAlertController the alertWindow is removed.
         */
         alertWindow.makeKeyAndVisible()
         
         alertWindow.rootViewController!.presentViewController(self, animated: flag, completion: completion)
+    }
+    
+    /**
+    Dismiss the DBAlertController
+    
+    :param: flag       Pass true to animate the presentation; otherwise, pass false. The presentation is animated by default.
+    :param: completion The closure to execute after the dismiss finishes.
+    */
+    public func hide(animated flag: Bool = true, completion: (() -> Void)? = nil) {
+        self.dismissViewControllerAnimated(flag, completion:completion)
     }
 }
