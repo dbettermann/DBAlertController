@@ -19,6 +19,11 @@ public class DBAlertController: UIAlertController {
         return window
     }()
     
+    /// Fix for bug in iOS9 that prevents the original window from becoming keyWindow again
+    deinit{
+        self.alertWindow.hidden=true
+    }
+    
     /**
     Present the DBAlertController on top of the visible UIViewController.
     
@@ -32,5 +37,15 @@ public class DBAlertController: UIAlertController {
         alertWindow.makeKeyAndVisible()
         
         alertWindow.rootViewController!.presentViewController(self, animated: flag, completion: completion)
+    }
+    
+    /**
+    Dismiss the DBAlertController
+    
+    :param: flag       Pass true to animate the presentation; otherwise, pass false. The presentation is animated by default.
+    :param: completion The closure to execute after the dismiss finishes.
+    */
+    public func hide(animated flag: Bool = true, completion: (() -> Void)? = nil) {
+        self.dismissViewControllerAnimated(flag, completion:completion)
     }
 }
