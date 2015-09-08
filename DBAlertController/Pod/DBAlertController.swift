@@ -26,12 +26,11 @@ public class DBAlertController: UIAlertController {
     :param: completion The closure to execute after the presentation finishes.
     */
     public func show(animated flag: Bool = true, completion: (() -> Void)? = nil) {
-        /**
-        *  We don't need to worry about removing the window manually. The only strong reference to the alertWindow is the UIAlertController so when ARC cleans up the UIAlertController the alertWindow is removed.
-        */
-        alertWindow.makeKeyAndVisible()
-        
-        alertWindow.rootViewController!.presentViewController(self, animated: flag, completion: completion)
+        if let rootViewController = alertWindow.rootViewController {
+            alertWindow.makeKeyAndVisible()
+            
+            rootViewController.presentViewController(self, animated: flag, completion: completion)
+        }
     }
     
     /**
