@@ -13,7 +13,7 @@ public class DBAlertController: UIAlertController {
     /// The UIWindow that will be at the top of the window hierarchy. The DBAlertController instance is presented on the rootViewController of this window.
     private lazy var alertWindow: UIWindow = {
         let window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window.rootViewController = UIViewController()
+        window.rootViewController = DBClearViewController()
         window.backgroundColor = UIColor.clearColor()
         window.windowLevel = UIWindowLevelAlert + 1 // Guarantees that our UIAlertController will appear above all other UIAlertControllers.
         return window
@@ -47,5 +47,13 @@ public class DBAlertController: UIAlertController {
     // Fix for bug in iOS 9 Beta 5 that prevents the original window from becoming keyWindow again
     deinit {
         alertWindow.hidden = true
+    }
+}
+
+
+private class DBClearViewController: UIViewController {
+    
+    private override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIApplication.sharedApplication().statusBarStyle
     }
 }
