@@ -22,8 +22,8 @@ public class DBAlertController: UIAlertController {
     /**
     Present the DBAlertController on top of the visible UIViewController.
     
-    :param: flag       Pass true to animate the presentation; otherwise, pass false. The presentation is animated by default.
-    :param: completion The closure to execute after the presentation finishes.
+    - parameter flag:       Pass true to animate the presentation; otherwise, pass false. The presentation is animated by default.
+    - parameter completion: The closure to execute after the presentation finishes.
     */
     public func show(animated flag: Bool = true, completion: (() -> Void)? = nil) {
         if let rootViewController = alertWindow.rootViewController {
@@ -36,8 +36,8 @@ public class DBAlertController: UIAlertController {
     /**
     Dismiss the DBAlertController
     
-    :param: flag       Pass true to animate the presentation; otherwise, pass false. The presentation is animated by default.
-    :param: completion The closure to execute after the dismiss finishes.
+    - parameter flag:       Pass true to animate the presentation; otherwise, pass false. The presentation is animated by default.
+    - parameter completion: The closure to execute after the dismiss finishes.
     */
     public func dismiss(animated flag: Bool = true, completion: (() -> Void)? = nil) {
         dismissViewControllerAnimated(flag, completion: completion)
