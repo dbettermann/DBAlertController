@@ -47,12 +47,14 @@ public class DBAlertController: UIAlertController {
     deinit {
         alertWindow.hidden = true
     }
+    
 }
 
-
+// In the case of view controller-based status bar style, make sure we use the same style for our view controller
 private class DBClearViewController: UIViewController {
     
     private override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIApplication.sharedApplication().statusBarStyle
     }
+    
 }
