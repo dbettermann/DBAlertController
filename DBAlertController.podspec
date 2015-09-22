@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "DBAlertController"
-  s.version          = "0.1.3"
+  s.version          = "0.2.0"
   s.summary          = "A UIAlertController subclass that's independent of the view controller it's presented from."
   s.homepage         = "https://github.com/dbettermann/DBAlertController"
   s.license          = 'MIT'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/dbettermann/DBAlertController.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/dbettermann'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'DBAlertController/Pod/*'
