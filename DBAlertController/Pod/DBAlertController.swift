@@ -57,4 +57,8 @@ private class DBClearViewController: UIViewController {
         return UIApplication.sharedApplication().statusBarStyle
     }
     
+    private override func prefersStatusBarHidden() -> Bool {
+        return UIApplication.sharedApplication().statusBarHidden
+    }
+    
 }
