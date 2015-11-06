@@ -40,6 +40,9 @@ public class DBAlertController: UIAlertController {
     */
     public func dismiss(animated flag: Bool = true, completion: (() -> Void)? = nil) {
         dismissViewControllerAnimated(flag, completion: completion)
+        if let app = UIApplication.sharedApplication().delegate as? AppDelegate, let window = app.window {
+            window.makeKeyAndVisible()
+        }
     }
     
     
