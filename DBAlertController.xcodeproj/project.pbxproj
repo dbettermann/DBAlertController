@@ -7,48 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC1DE8D61B0196910019E38D /* DBAlertControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DE8D51B0196910019E38D /* DBAlertControllerTests.swift */; };
-		FC5A95E91B56A0F90082B467 /* DBAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95E81B56A0F90082B467 /* DBAlertController.swift */; };
-		FC5A95F21B56A1570082B467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95EB1B56A1570082B467 /* AppDelegate.swift */; };
-		FC5A95F31B56A1570082B467 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5A95EC1B56A1570082B467 /* LaunchScreen.xib */; };
-		FC5A95F41B56A1570082B467 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5A95EE1B56A1570082B467 /* Images.xcassets */; };
-		FC5A95F61B56A1570082B467 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95F01B56A1570082B467 /* ModalViewController.swift */; };
-		FC5A95F71B56A1570082B467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95F11B56A1570082B467 /* ViewController.swift */; };
+		8810EDC31BF1026500A5B6F6 /* DBAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8810EDC01BF1026500A5B6F6 /* DBAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8810EDC41BF1026500A5B6F6 /* DBAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810EDC11BF1026500A5B6F6 /* DBAlertController.swift */; };
+		8810EDC51BF1026500A5B6F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8810EDC21BF1026500A5B6F6 /* Info.plist */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FC1DE8D01B0196910019E38D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC1DE8B21B0196910019E38D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FC1DE8B91B0196910019E38D;
-			remoteInfo = DBAlertController;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		FC1DE8BA1B0196910019E38D /* DBAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC1DE8CF1B0196910019E38D /* DBAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC1DE8D41B0196910019E38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC1DE8D51B0196910019E38D /* DBAlertControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBAlertControllerTests.swift; sourceTree = "<group>"; };
-		FC5A95E81B56A0F90082B467 /* DBAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBAlertController.swift; sourceTree = "<group>"; };
-		FC5A95EB1B56A1570082B467 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC5A95ED1B56A1570082B467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FC5A95EE1B56A1570082B467 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FC5A95EF1B56A1570082B467 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC5A95F01B56A1570082B467 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
-		FC5A95F11B56A1570082B467 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8810EDC01BF1026500A5B6F6 /* DBAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBAlertController.h; path = Source/DBAlertController.h; sourceTree = SOURCE_ROOT; };
+		8810EDC11BF1026500A5B6F6 /* DBAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBAlertController.swift; path = Source/DBAlertController.swift; sourceTree = SOURCE_ROOT; };
+		8810EDC21BF1026500A5B6F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
+		88ADD97C1BF1019D00957A9E /* DBAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DBAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FC1DE8B71B0196910019E38D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC1DE8CC1B0196910019E38D /* Frameworks */ = {
+		88ADD9781BF1019D00957A9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,81 +30,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC1DE8B11B0196910019E38D = {
+		8810EDCC1BF1037200A5B6F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC1DE8BC1B0196910019E38D /* DBAlertController */,
-				FC1DE8D21B0196910019E38D /* DBAlertControllerTests */,
-				FC1DE8BB1B0196910019E38D /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		FC1DE8BB1B0196910019E38D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FC1DE8BA1B0196910019E38D /* DBAlertController.app */,
-				FC1DE8CF1B0196910019E38D /* DBAlertControllerTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FC1DE8BC1B0196910019E38D /* DBAlertController */ = {
-			isa = PBXGroup;
-			children = (
-				FC5A95EA1B56A1570082B467 /* Example */,
-				FC5A95E71B56A0F90082B467 /* Pod */,
-			);
-			path = DBAlertController;
-			sourceTree = "<group>";
-		};
-		FC1DE8D21B0196910019E38D /* DBAlertControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				FC1DE8D51B0196910019E38D /* DBAlertControllerTests.swift */,
-				FC1DE8D31B0196910019E38D /* Supporting Files */,
-			);
-			path = DBAlertControllerTests;
-			sourceTree = "<group>";
-		};
-		FC1DE8D31B0196910019E38D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC1DE8D41B0196910019E38D /* Info.plist */,
+				8810EDC01BF1026500A5B6F6 /* DBAlertController.h */,
+				8810EDC21BF1026500A5B6F6 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FC5A95E71B56A0F90082B467 /* Pod */ = {
+		88ADD9721BF1019D00957A9E = {
 			isa = PBXGroup;
 			children = (
-				FC5A95E81B56A0F90082B467 /* DBAlertController.swift */,
+				88ADD97E1BF1019D00957A9E /* Source */,
+				88ADD97D1BF1019D00957A9E /* Products */,
 			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
-		FC5A95EA1B56A1570082B467 /* Example */ = {
+		88ADD97D1BF1019D00957A9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC5A95EB1B56A1570082B467 /* AppDelegate.swift */,
-				FC5A95EC1B56A1570082B467 /* LaunchScreen.xib */,
-				FC5A95EE1B56A1570082B467 /* Images.xcassets */,
-				FC5A95EF1B56A1570082B467 /* Info.plist */,
-				FC5A95F01B56A1570082B467 /* ModalViewController.swift */,
-				FC5A95F11B56A1570082B467 /* ViewController.swift */,
+				88ADD97C1BF1019D00957A9E /* DBAlertController.framework */,
 			);
-			path = Example;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88ADD97E1BF1019D00957A9E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8810EDC11BF1026500A5B6F6 /* DBAlertController.swift */,
+				8810EDCC1BF1037200A5B6F6 /* Supporting Files */,
+			);
+			name = Source;
+			path = DBAlertController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		88ADD9791BF1019D00957A9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8810EDC31BF1026500A5B6F6 /* DBAlertController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		FC1DE8B91B0196910019E38D /* DBAlertController */ = {
+		88ADD97B1BF1019D00957A9E /* DBAlertController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC1DE8D91B0196910019E38D /* Build configuration list for PBXNativeTarget "DBAlertController" */;
+			buildConfigurationList = 88ADD9841BF1019D00957A9E /* Build configuration list for PBXNativeTarget "DBAlertController" */;
 			buildPhases = (
-				FC1DE8B61B0196910019E38D /* Sources */,
-				FC1DE8B71B0196910019E38D /* Frameworks */,
-				FC1DE8B81B0196910019E38D /* Resources */,
+				88ADD9771BF1019D00957A9E /* Sources */,
+				88ADD9781BF1019D00957A9E /* Frameworks */,
+				88ADD9791BF1019D00957A9E /* Headers */,
+				88ADD97A1BF1019D00957A9E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -140,128 +94,64 @@
 			);
 			name = DBAlertController;
 			productName = DBAlertController;
-			productReference = FC1DE8BA1B0196910019E38D /* DBAlertController.app */;
-			productType = "com.apple.product-type.application";
-		};
-		FC1DE8CE1B0196910019E38D /* DBAlertControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC1DE8DC1B0196910019E38D /* Build configuration list for PBXNativeTarget "DBAlertControllerTests" */;
-			buildPhases = (
-				FC1DE8CB1B0196910019E38D /* Sources */,
-				FC1DE8CC1B0196910019E38D /* Frameworks */,
-				FC1DE8CD1B0196910019E38D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FC1DE8D11B0196910019E38D /* PBXTargetDependency */,
-			);
-			name = DBAlertControllerTests;
-			productName = DBAlertControllerTests;
-			productReference = FC1DE8CF1B0196910019E38D /* DBAlertControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = 88ADD97C1BF1019D00957A9E /* DBAlertController.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FC1DE8B21B0196910019E38D /* Project object */ = {
+		88ADD9731BF1019D00957A9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Dylan Bettermann";
 				TargetAttributes = {
-					FC1DE8B91B0196910019E38D = {
-						CreatedOnToolsVersion = 6.3.1;
-					};
-					FC1DE8CE1B0196910019E38D = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = FC1DE8B91B0196910019E38D;
+					88ADD97B1BF1019D00957A9E = {
+						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
-			buildConfigurationList = FC1DE8B51B0196910019E38D /* Build configuration list for PBXProject "DBAlertController" */;
+			buildConfigurationList = 88ADD9761BF1019D00957A9E /* Build configuration list for PBXProject "DBAlertController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = FC1DE8B11B0196910019E38D;
-			productRefGroup = FC1DE8BB1B0196910019E38D /* Products */;
+			mainGroup = 88ADD9721BF1019D00957A9E;
+			productRefGroup = 88ADD97D1BF1019D00957A9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC1DE8B91B0196910019E38D /* DBAlertController */,
-				FC1DE8CE1B0196910019E38D /* DBAlertControllerTests */,
+				88ADD97B1BF1019D00957A9E /* DBAlertController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC1DE8B81B0196910019E38D /* Resources */ = {
+		88ADD97A1BF1019D00957A9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC5A95F31B56A1570082B467 /* LaunchScreen.xib in Resources */,
-				FC5A95F41B56A1570082B467 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC1DE8CD1B0196910019E38D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8810EDC51BF1026500A5B6F6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FC1DE8B61B0196910019E38D /* Sources */ = {
+		88ADD9771BF1019D00957A9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC5A95F21B56A1570082B467 /* AppDelegate.swift in Sources */,
-				FC5A95F61B56A1570082B467 /* ModalViewController.swift in Sources */,
-				FC5A95F71B56A1570082B467 /* ViewController.swift in Sources */,
-				FC5A95E91B56A0F90082B467 /* DBAlertController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC1DE8CB1B0196910019E38D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC1DE8D61B0196910019E38D /* DBAlertControllerTests.swift in Sources */,
+				8810EDC41BF1026500A5B6F6 /* DBAlertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		FC1DE8D11B0196910019E38D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FC1DE8B91B0196910019E38D /* DBAlertController */;
-			targetProxy = FC1DE8D01B0196910019E38D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FC5A95EC1B56A1570082B467 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC5A95ED1B56A1570082B467 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		FC1DE8D71B0196910019E38D /* Debug */ = {
+		88ADD9821BF1019D00957A9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,8 +170,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -290,23 +182,24 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		FC1DE8D81B0196910019E38D /* Release */ = {
+		88ADD9831BF1019D00957A9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -325,6 +218,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -336,99 +230,75 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FC1DE8DA1B0196910019E38D /* Debug */ = {
+		88ADD9851BF1019D00957A9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "$(SRCROOT)/DBAlertController/Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylanbettermann.DBAlertController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		FC1DE8DB1B0196910019E38D /* Release */ = {
+		88ADD9861BF1019D00957A9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "$(SRCROOT)/DBAlertController/Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		FC1DE8DD1B0196910019E38D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DBAlertControllerTests/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylanbettermann.DBAlertController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBAlertController.app/DBAlertController";
-			};
-			name = Debug;
-		};
-		FC1DE8DE1B0196910019E38D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DBAlertControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBAlertController.app/DBAlertController";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC1DE8B51B0196910019E38D /* Build configuration list for PBXProject "DBAlertController" */ = {
+		88ADD9761BF1019D00957A9E /* Build configuration list for PBXProject "DBAlertController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC1DE8D71B0196910019E38D /* Debug */,
-				FC1DE8D81B0196910019E38D /* Release */,
+				88ADD9821BF1019D00957A9E /* Debug */,
+				88ADD9831BF1019D00957A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC1DE8D91B0196910019E38D /* Build configuration list for PBXNativeTarget "DBAlertController" */ = {
+		88ADD9841BF1019D00957A9E /* Build configuration list for PBXNativeTarget "DBAlertController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC1DE8DA1B0196910019E38D /* Debug */,
-				FC1DE8DB1B0196910019E38D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FC1DE8DC1B0196910019E38D /* Build configuration list for PBXNativeTarget "DBAlertControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC1DE8DD1B0196910019E38D /* Debug */,
-				FC1DE8DE1B0196910019E38D /* Release */,
+				88ADD9851BF1019D00957A9E /* Debug */,
+				88ADD9861BF1019D00957A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FC1DE8B21B0196910019E38D /* Project object */;
+	rootObject = 88ADD9731BF1019D00957A9E /* Project object */;
 }

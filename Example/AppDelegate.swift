@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DBAlertController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
