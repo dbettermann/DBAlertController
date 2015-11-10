@@ -1,5 +1,8 @@
 # DBAlertController
-Adding UIAlertView's show() functionality to UIAlertController
+Adding UIAlertView's show() functionality to UIAlertController.
+
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/DBAlertController.svg)](https://img.shields.io/cocoapods/v/DBAlertController.svg)
 
 ## Background
 Have you ever needed to present an alert without knowing the visible view controller? In case you're drawing a blank, let me give an example.
@@ -45,12 +48,7 @@ What if the rootViewController's view is *not* in the window hierarchy?
 There's a demo of this scenario in the source. Pull it down and try it yourself.
 
 ## Fixing the issue
-DBAlertController fixes the issue above by presenting the UIAlertController on its own UIWindow. By using its own window we can ensure:
-
-* The alert's UIWindow is always on top (`windowLevel = UIWindowLevelAlert + 1`)
-* The alert is always presented from the same UIViewController (`alertWindow.rootViewController`)
-
-So there you have it. Try it out and let me know what you think.
+DBAlertController fixes the issue above by presenting the UIAlertController on its own UIWindow.
 
 ## Installation
 
@@ -58,12 +56,13 @@ So there you have it. Try it out and let me know what you think.
 Add `pod 'DBAlertController'` to your Podfile.
 
 ### Carthage
-Haven't really used Carthage. Will add support if asked.
+Add `github "dbettermann/DBAlertController" ~> 0.2.2` to your Cartfile.
 
 ### Manual
 Copy and paste DBAlertController.swift into your project.
 
 ## Usage
+
 ```swift
 let alertController = DBAlertController(title: "DBAlertController", message: "Hello World!", preferredStyle: .Alert)
 alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
