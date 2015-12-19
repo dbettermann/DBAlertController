@@ -56,7 +56,7 @@ DBAlertController fixes the issue above by presenting the UIAlertController on i
 Add `pod 'DBAlertController'` to your Podfile.
 
 ### Carthage
-Add `github "dbettermann/DBAlertController" ~> 0.2.2` to your Cartfile.
+Add `github "dbettermann/DBAlertController"` to your Cartfile.
 
 ### Manual
 Copy and paste DBAlertController.swift into your project.
