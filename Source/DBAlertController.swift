@@ -9,7 +9,7 @@
 import UIKit
 
 public class DBAlertController: UIAlertController {
-    static var windowLevel: UIWindowLevel = UIWindowLevelNormal // default
+    public static var windowLevel: UIWindowLevel = UIWindowLevelNormal // default
    
     /// The UIWindow that will be at the top of the window hierarchy. The DBAlertController instance is presented on the rootViewController of this window.
     private lazy var alertWindow: UIWindow = {
