@@ -10,7 +10,6 @@
 		8810EDC61BF102A200A5B6F6 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95F01B56A1570082B467 /* ModalViewController.swift */; };
 		8810EDC71BF102A400A5B6F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A95F11B56A1570082B467 /* ViewController.swift */; };
 		8810EDCA1BF1031600A5B6F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8810EDC81BF1031600A5B6F6 /* Images.xcassets */; };
-		8810EDCB1BF1031600A5B6F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8810EDC91BF1031600A5B6F6 /* Info.plist */; };
 		88EA9CA61BF11D1C00BF55B4 /* DBAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EA9CA51BF11CA100BF55B4 /* DBAlertController.framework */; };
 		88EA9CA71BF11D1C00BF55B4 /* DBAlertController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88EA9CA51BF11CA100BF55B4 /* DBAlertController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		88EA9CAD1BF11EE000BF55B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EA9CAB1BF11EE000BF55B4 /* LaunchScreen.xib */; };
@@ -204,7 +203,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Dylan Bettermann";
 				TargetAttributes = {
 					FC1DE8B91B0196910019E38D = {
@@ -258,7 +257,6 @@
 			files = (
 				8810EDCA1BF1031600A5B6F6 /* Images.xcassets in Resources */,
 				88EA9CAD1BF11EE000BF55B4 /* LaunchScreen.xib in Resources */,
-				8810EDCB1BF1031600A5B6F6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +336,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -408,6 +407,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanbettermann.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "DBAlertController-Demo";
 			};
 			name = Debug;
@@ -420,6 +420,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanbettermann.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "DBAlertController-Demo";
 			};
 			name = Release;
@@ -438,6 +439,7 @@
 				);
 				INFOPLIST_FILE = DBAlertControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanbettermann.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "DBAlertController-Demo";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBAlertController-Demo.app/DBAlertController-Demo";
 			};
@@ -453,6 +455,7 @@
 				);
 				INFOPLIST_FILE = DBAlertControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanbettermann.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "DBAlertController-Demo";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBAlertController-Demo.app/DBAlertController-Demo";
 			};
