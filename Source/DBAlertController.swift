@@ -32,17 +32,6 @@ public class DBAlertController: UIAlertController {
         }
     }
     
-    /**
-    Dismiss the DBAlertController
-    
-    - parameter flag:       Pass true to animate the presentation; otherwise, pass false. The presentation is animated by default.
-    - parameter completion: The closure to execute after the dismiss finishes.
-    */
-    public func dismiss(animated flag: Bool = true, completion: (() -> Void)? = nil) {
-        dismissViewControllerAnimated(flag, completion: completion)
-    }
-    
-    
     // Fix for bug in iOS 9 Beta 5 that prevents the original window from becoming keyWindow again
     deinit {
         alertWindow.hidden = true
