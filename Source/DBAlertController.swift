@@ -27,6 +27,10 @@ public class DBAlertController: UIAlertController {
     - parameter completion: The closure to execute after the presentation finishes.
     */
     public func show(animated flag: Bool = true, completion: (() -> Void)? = nil) {
+        let duplicatedAlerts = UIApplication.sharedApplication().windows.filter { [weak self] in
+            $0.rootViewController?.presentedViewController?.restorationIdentifier == self?.restorationIdentifier
+        }
+        if duplicatedAlerts.count > 0 { return }
         if let rootViewController = alertWindow.rootViewController {
             alertWindow.makeKeyAndVisible()
             
