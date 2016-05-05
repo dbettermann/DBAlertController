@@ -33,11 +33,6 @@ public class DBAlertController: UIAlertController {
         }
     }
     
-    // Fix for bug in iOS 9 Beta 5 that prevents the original window from becoming keyWindow again
-    deinit {
-        alertWindow.hidden = true
-    }
-    
 }
 
 // In the case of view controller-based status bar style, make sure we use the same style for our view controller
