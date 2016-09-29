@@ -14,9 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window = UIWindow(frame: UIScreen.main.bounds)
         window!.rootViewController = UINavigationController(rootViewController: ViewController())
         
         window!.makeKeyAndVisible()
@@ -24,13 +24,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    func applicationDidBecomeActive(application: UIApplication) {
-        let oldAlertController = UIAlertController(title: "UIAlertController", message: "This is the UIAlertController instance. Start the demo by pressing the Present button to present a modal UIViewController.", preferredStyle: .Alert)
-        oldAlertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-        window!.rootViewController?.presentViewController(oldAlertController, animated: true, completion: nil)
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        let oldAlertController = UIAlertController(title: "UIAlertController", message: "This is the UIAlertController instance. Start the demo by pressing the Present button to present a modal UIViewController.", preferredStyle: .alert)
+        oldAlertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        window!.rootViewController?.present(oldAlertController, animated: true, completion: nil)
         
-        let newAlertController = DBAlertController(title: "DBAlertController", message: "This is the DBAlertController instance.", preferredStyle: .Alert)
-        newAlertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+        let newAlertController = DBAlertController(title: "DBAlertController", message: "This is the DBAlertController instance.", preferredStyle: .alert)
+        newAlertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         newAlertController.show()
     }
 
