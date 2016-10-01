@@ -208,9 +208,11 @@
 				TargetAttributes = {
 					FC1DE8B91B0196910019E38D = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 					};
 					FC1DE8CE1B0196910019E38D = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = FC1DE8B91B0196910019E38D;
 					};
 				};
@@ -409,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanbettermann.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "DBAlertController-Demo";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -422,6 +425,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanbettermann.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "DBAlertController-Demo";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -441,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanbettermann.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "DBAlertController-Demo";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBAlertController-Demo.app/DBAlertController-Demo";
 			};
 			name = Debug;
@@ -457,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanbettermann.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "DBAlertController-Demo";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBAlertController-Demo.app/DBAlertController-Demo";
 			};
 			name = Release;

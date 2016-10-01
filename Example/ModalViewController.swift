@@ -17,7 +17,7 @@ class ModalViewController: UIViewController {
         
         view.backgroundColor = UIColor.whiteColor()
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Dismiss", style: .Plain, target: self, action: "dismiss")
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Dismiss", style: .Plain, target: self, action: #selector(dismiss))
     }
     
     func dismiss() {

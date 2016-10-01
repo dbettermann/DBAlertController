@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         view.backgroundColor = UIColor.whiteColor()
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Present", style: .Plain, target: self, action: "present")
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Present", style: .Plain, target: self, action: #selector(present))
     }
     
     func present() {
