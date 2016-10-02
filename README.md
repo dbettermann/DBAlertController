@@ -2,7 +2,7 @@
 Adding UIAlertView's show() functionality to UIAlertController.
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/DBAlertController.svg)](https://img.shields.io/cocoapods/v/DBAlertController.svg)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/DBAlertController.svg)](https://img.shields.io/cocoapods/v/DBAlertController.svg)
 
 ## Background
 Have you ever needed to present an alert without knowing the visible view controller? In case you're drawing a blank, let me give an example.
@@ -52,7 +52,7 @@ DBAlertController fixes the issue above by presenting the UIAlertController on i
 
 ## Installation
 
-### Cocoapods
+### CocoaPods
 Add `pod 'DBAlertController'` to your Podfile.
 
 ### Carthage
