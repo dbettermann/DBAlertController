@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "DBAlertController"
-  s.version          = "0.2.6"
+  s.version          = "0.3.0"
   s.summary          = "A UIAlertController subclass that's independent of the view controller it's presented from."
   s.homepage         = "https://github.com/dbettermann/DBAlertController"
   s.license          = 'MIT'
