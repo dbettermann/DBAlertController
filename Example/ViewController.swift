@@ -15,18 +15,18 @@ class ViewController: UIViewController {
         
         title = "DBAlertController Demo"
         
-        view.backgroundColor = UIColor.whiteColor()
+        view.backgroundColor = UIColor.white
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Present", style: .Plain, target: self, action: #selector(present))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Present", style: .plain, target: self, action: #selector(ViewController.present as (ViewController) -> () -> ()))
     }
     
     func present() {
         let modalViewController = UINavigationController(rootViewController: ModalViewController())
-        modalViewController.modalPresentationStyle = .FormSheet
-        presentViewController(modalViewController, animated: true, completion: {
-            let instructions = UIAlertController(title: "Instructions", message: "Now press the home button. When you resume the app, the default UIAlertController will not be presented and you will receive a warning message in your console. The DBAlertController will be presented.", preferredStyle: .Alert)
-            instructions.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-            modalViewController.presentViewController(instructions, animated: true, completion: nil)
+        modalViewController.modalPresentationStyle = .formSheet
+        self.present(modalViewController, animated: true, completion: {
+            let instructions = UIAlertController(title: "Instructions", message: "Now press the home button. When you resume the app, the default UIAlertController will not be presented and you will receive a warning message in your console. The DBAlertController will be presented.", preferredStyle: .alert)
+            instructions.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            modalViewController.present(instructions, animated: true, completion: nil)
         })
     }
 

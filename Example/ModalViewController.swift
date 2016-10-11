@@ -15,13 +15,13 @@ class ModalViewController: UIViewController {
         
         title = "Modal View Controller"
         
-        view.backgroundColor = UIColor.whiteColor()
+        view.backgroundColor = UIColor.white
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Dismiss", style: .Plain, target: self, action: #selector(dismiss))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Dismiss", style: .plain, target: self, action: #selector(ModalViewController.dismiss as (ModalViewController) -> () -> ()))
     }
     
     func dismiss() {
-        presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
+        presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
 }
