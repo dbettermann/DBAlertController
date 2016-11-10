@@ -33,6 +33,11 @@ open class DBAlertController: UIAlertController {
         }
     }
     
+    // Let the original window become keyWindow again
+    deinit {
+        alertWindow.isHidden = true
+    }
+
 }
 
 // In the case of view controller-based status bar style, make sure we use the same style for our view controller
