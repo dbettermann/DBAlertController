@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class DBAlertController: UIAlertController {
+open class DBAlertController: UIAlertController {
    
     /// The UIWindow that will be at the top of the window hierarchy. The DBAlertController instance is presented on the rootViewController of this window.
     private lazy var alertWindow: UIWindow = {
