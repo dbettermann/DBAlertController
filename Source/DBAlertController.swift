@@ -15,7 +15,7 @@ open class DBAlertController: UIAlertController {
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = DBClearViewController()
         window.backgroundColor = UIColor.clear
-		window.windowLevel = UIWindowLevelAlert
+		window.windowLevel = UIWindow.Level.alert
         return window
     }()
     
